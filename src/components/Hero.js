@@ -45,7 +45,7 @@ export default function Hero() {
             <Button label="View Work" className="btn-primary" />
           </a>
           <a href="#contacts">
-            <Button label="Hire Me" className="btn-outline" />
+            <Button label="Hire Me" className="btn-primary" />
           </a>
         </div>
       </div>

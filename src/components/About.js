@@ -1,11 +1,12 @@
 import React from 'react';
 import { Button } from 'primereact/button';
+import photo from "../assets/photo.jpg";
 
 const details = [
   { label: 'Name', value: 'Nelli Gorlova' },
   { label: 'Role', value: 'Frontend Developer' },
   { label: 'Stack', value: 'React · TypeScript' },
-  { label: 'Email', value: 'gorlovmaks23@gmail.com' },
+  { label: 'Email', value: 'nelli7035@gmail.com' },
 ];
 
 export default function About() {
@@ -14,7 +15,8 @@ export default function About() {
       <div className="about-inner">
         <div className="about-photo">
           <div className="about-photo-placeholder">
-            <i className="pi pi-user" />
+            {/*<i className="pi pi-user" />*/}
+              <img src={photo} alt="#"/>
           </div>
         </div>
         <div className="about-info">

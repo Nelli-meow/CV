@@ -6,6 +6,7 @@ const navLinks = [
   { label: 'Skills', href: '#skills' },
   { label: 'Experience', href: '#resume' },
   { label: 'Projects', href: '#projects' },
+    { label: 'Contacts', href: '#contacts' },
 ];
 
 export default function Navbar() {
@@ -27,9 +28,6 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a href="#contacts" className="navbar-link navbar-link--accent">
-            Contact
-          </a>
         </div>
       </div>
     </nav>

@@ -7,22 +7,24 @@ import Skills from './components/Skills';
 import Resume from './components/Resume';
 import Contacts from './components/Contacts';
 import './App.css';
+import HireMe from "./components/hireMe";
 
 function App() {
-  return (
-    <div className="app">
-      <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Skills />
-      <Resume />
-      <Contacts />
-      <footer className="footer">
-        <p>&copy; 2026 Nelli Gorlova. All rights reserved.</p>
-      </footer>
-    </div>
-  );
+    return (
+        <div className="app">
+            <Navbar/>
+            <Hero/>
+            <About/>
+            <Projects/>
+            <HireMe/>
+            <Skills/>
+            <Resume/>
+            <Contacts/>
+            <footer className="footer">
+                <p>&copy; 2026 Nelli Gorlova. All rights reserved.</p>
+            </footer>
+        </div>
+    );
 }
 
 export default App;
