@@ -21,7 +21,7 @@ export default function About() {
         </div>
         <div className="about-info">
           <h2 className="about-heading">
-            I Am Modern <span className="accent">Web Developer</span>
+            I Am <span className="accent">Web Developer</span>
           </h2>
           <p className="about-text">
             I write clean, maintainable code and care about how things work under the hood,
@@ -32,8 +32,8 @@ export default function About() {
           <div className="about-details">
             {details.map((d, i) => (
               <div key={i} className="about-detail-row">
-                <span className="about-detail-label">{d.label}</span>
-                <span className="about-detail-value">: {d.value}</span>
+                <span className="about-detail-label">{d.label}:</span>
+                <span className="about-detail-value">{d.value}</span>
               </div>
             ))}
           </div>
