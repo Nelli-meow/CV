@@ -2,40 +2,10 @@ import React from 'react';
 
 const projects = [
   {
-    title: 'Pet Store E-commerce',
-    description: 'Full-stack online pet store built from scratch based on client requirements. React, Node.js, PostgreSQL.',
+    title: 'Online-store',
+    description: 'A modern online store with product browsing, shopping cart, and order management.',
     icon: 'pi pi-shopping-cart',
-    link: '#',
-  },
-  {
-    title: 'Dashboard & Analytics',
-    description: 'Interactive dashboards and data visualizations built with Recharts + React + TypeScript.',
-    icon: 'pi pi-chart-bar',
-    link: '#',
-  },
-  {
-    title: 'UI Component Library',
-    description: 'Reusable component library based on shadcn/ui with design tokens for product consistency.',
-    icon: 'pi pi-palette',
-    link: '#',
-  },
-  {
-    title: 'REST API Service',
-    description: 'Backend service on NestJS with authentication, validation, and MongoDB integration.',
-    icon: 'pi pi-server',
-    link: '#',
-  },
-  {
-    title: 'Portfolio Landing',
-    description: 'This website — a personal portfolio landing page built with React + PrimeReact.',
-    icon: 'pi pi-globe',
-    link: '#',
-  },
-  {
-    title: 'Coming Soon...',
-    description: 'New projects are in progress. Stay tuned for updates!',
-    icon: 'pi pi-code',
-    link: '#',
+    link: 'https://market.skamvolrog.dev/',
   },
 ];
 
