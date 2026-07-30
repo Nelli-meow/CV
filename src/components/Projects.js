@@ -13,7 +13,7 @@ export default function Projects() {
   return (
     <section className="projects" id="projects">
       <h2 className="section-heading">
-        MY <span className="accent">PROJECTS MEOW MEOW</span>
+        MY <span className="accent">PROJECTS</span>
       </h2>
       <div className="section-divider" />
       <div className="projects-grid">
