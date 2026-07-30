@@ -432,7 +432,7 @@
 
 .skill-fill {
     height: 100%;
-    background: linear-gradient(90deg, #e8505b, #ff6b6b);
+    background: linear-gradient(90deg, #e8505b, #a5a1f6);
     border-radius: 4px;
     animation: fillBar 1.2s ease-out;
 }

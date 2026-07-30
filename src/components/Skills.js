@@ -8,7 +8,7 @@ const skillGroups = [
       { name: 'TypeScript', level: 85 },
       { name: 'React', level: 88 },
       { name: 'HTML / CSS', level: 90 },
-      { name: 'Bootstrap / MUI / shadcn/ui', level: 80 },
+      { name: 'Bootstrap / MUI / shadcn ui / Tailwind CSS', level: 80 },
       { name: 'Recharts', level: 75 },
     ],
   },
