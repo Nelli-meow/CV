@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'primereact/button';
-import photo from "../assets/photo.jpg";
-import cv from '../assets/CV.pdf';
+import photo from "../assets/photo.png";
+import cv from '../assets/Nelli_Gorlova_Resume_1.pdf';
 
 const details = [
   { label: 'Name', value: 'Nelli Gorlova' },

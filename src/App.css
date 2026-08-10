@@ -409,8 +409,27 @@
     color: #a0a0b8;
     font-size: 0.88rem;
     line-height: 1.7;
+    margin-bottom: 10px;
 }
 
+.project-main-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.project-git {
+    display: inline-block;
+    margin-top: 10px;
+    color: #e8505b;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-underline-offset: 4px;
+}
+
+.project-git:hover {
+    color: #fff;
+}
 
 /* ---- hire me ---- */
 .hire-me {
