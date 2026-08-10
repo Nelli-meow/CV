@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'primereact/button';
 import photo from "../assets/photo.jpg";
+import cv from '../assets/CV.pdf';
 
 const details = [
   { label: 'Name', value: 'Nelli Gorlova' },
@@ -37,7 +38,17 @@ export default function About() {
               </div>
             ))}
           </div>
-          <Button label="Download CV" icon="pi pi-download" className="btn-primary" />
+            <Button
+                label="Download CV"
+                icon="pi pi-download"
+                className="btn-primary"
+                onClick={() => {
+                    const link = document.createElement('a');
+                    link.href = cv;
+                    link.download = 'CV.pdf';
+                    link.click();
+                }}
+            />
         </div>
       </div>
     </section>
