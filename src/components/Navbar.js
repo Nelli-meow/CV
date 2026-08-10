@@ -11,6 +11,7 @@ const navLinks = [
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
@@ -22,9 +23,25 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar-inner">
         <a href="#hero" className="navbar-logo">Nelli</a>
-        <div className="navbar-links">
+        <button
+          type="button"
+          className={`navbar-burger ${menuOpen ? 'navbar-burger--open' : ''}`}
+          onClick={() => setMenuOpen((open) => !open)}
+          aria-label="Toggle menu"
+          aria-expanded={menuOpen}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
+        <div className={`navbar-links ${menuOpen ? 'navbar-links--open' : ''}`}>
           {navLinks.map((link) => (
-            <a key={link.href} href={link.href} className="navbar-link">
+            <a
+              key={link.href}
+              href={link.href}
+              className="navbar-link"
+              onClick={() => setMenuOpen(false)}
+            >
               {link.label}
             </a>
           ))}
