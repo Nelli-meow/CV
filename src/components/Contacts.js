@@ -2,8 +2,8 @@ import React from 'react';
 
 const contacts = [
   { icon: 'pi pi-envelope', label: 'nelli7035@gmail.com', href: 'mailto:nelli7035@gmail.com' },
-  { icon: 'pi pi-github', label: 'GitHub', href: 'https://github.com' },
-  { icon: 'pi pi-send', label: 'Telegram', href: 'https://t.me/' },
+  { icon: 'pi pi-github', label: 'GitHub', href: 'https://github.com/Nelli-meow' },
+  { icon: 'pi pi-send', label: 'Telegram', href: 'https://t.me/NifaNifa' },
   { icon: 'pi pi-linkedin', label: 'LinkedIn', href: 'https://linkedin.com' },
 ];
 
